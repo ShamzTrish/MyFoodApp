@@ -24,8 +24,8 @@
 .input {
     align-items: center;
     margin-bottom: 0.5rem;
-    border-radius: 10px;
-    border: #a00505 solid 2px;
+    border-radius: 6px;
+    border: #a00505 solid 1.5px;
     padding: 0px 5px;
     
 }
