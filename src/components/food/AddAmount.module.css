@@ -10,7 +10,7 @@
     border-style: none;
     color: white;
     padding: 0.25rem 2rem;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: bold;
     margin-left: 10px;
 }
@@ -24,6 +24,10 @@
 .input {
     align-items: center;
     margin-bottom: 0.5rem;
+    border-radius: 10px;
+    border: #a00505 solid 2px;
+    padding: 0px 5px;
+    
 }
 
 @media screen and (max-width: 380px){
