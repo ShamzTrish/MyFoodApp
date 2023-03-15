@@ -1,0 +1,102 @@
+.meals {
+    max-width: 60rem;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+}
+
+.meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filterSelection {
+    width: auto;
+    margin-top: 2rem;
+    margin-left: 5rem;
+
+}
+
+
+.menu {
+    width: 70%;
+}
+.menuFilter {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: auto;
+
+}
+
+.paginate{
+    text-align: center;
+}
+
+.paginateButton {
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    padding: 0px 10px;
+    cursor: pointer;
+    border-right: solid 1px black;
+
+}
+
+.paginateButton:hover {
+    border-bottom: 1px  #a00505 solid;
+    color: #a00505;
+
+}
+
+
+.paginateButton:focus {
+    border-bottom: 1px  #a00505 solid;
+    color: #a00505;
+
+}
+
+
+
+
+@keyframes meals-appear {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .menuFilter {
+        display: block;
+   
+    
+    }
+    .filterSelection {
+        width: 100vw;
+        margin-top: 0px;
+        margin-left: 0rem; 
+    
+    }
+    .menu {
+        width: 100%;
+    }
+    .meals {
+        margin: 0.5rem auto;
+        border-radius: 0%;
+    }
+}
+
+
+@media screen and (max-width: 420px){
+  
+}
+
+@media screen and (max-width: 395px){
+    
+}

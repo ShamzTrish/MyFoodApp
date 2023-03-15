@@ -1,0 +1,45 @@
+.form {
+    text-align: right;
+}
+
+.form button {
+    width: 130px;
+    font: inherit;
+    cursor: pointer;
+    background-color: #a00505;
+    border-style: none;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.form button:hover,
+.form button:active {
+    background-color: hsl(36, 95%, 60%);
+    border-color: hsl(36, 95%, 60%);
+}
+
+.input {
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 380px){
+    .form button {
+        width: 60px;
+        padding: 10px 1rem;
+        margin-left: 5px;
+    }
+}
+
+
+@media screen and (max-width: 420px){
+  
+}
+
+@media screen and (max-width: 395px){
+    
+}
+
