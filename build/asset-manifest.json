@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.90062969.css",
+    "main.css": "/static/css/main.1bfb718b.css",
     "main.js": "/static/js/main.d1a6570c.js",
     "static/media/steak.jpeg": "/static/media/steak.40047e577c51bd7efb1a.jpeg",
     "static/media/restaurantMEDIUM.jpeg": "/static/media/restaurantMEDIUM.d3de9baff9e2e37f32e9.jpeg",
     "static/media/Divinero.png": "/static/media/Divinero.d8fc76c4a6df41a77e1f.png",
     "index.html": "/index.html",
-    "main.90062969.css.map": "/static/css/main.90062969.css.map",
+    "main.1bfb718b.css.map": "/static/css/main.1bfb718b.css.map",
     "main.d1a6570c.js.map": "/static/js/main.d1a6570c.js.map"
   },
   "entrypoints": [
-    "static/css/main.90062969.css",
+    "static/css/main.1bfb718b.css",
     "static/js/main.d1a6570c.js"
   ]
 }
