@@ -7,8 +7,6 @@ import CartProvider from "../components/store/CartProvider"
 import { useState } from 'react'
 import Footer from "../components/footer/Footer"
 
-
-import { Link } from "react-router-dom"
 import CheckOutCart from "../components/shoppingCart/CheckOutCart"
 
 

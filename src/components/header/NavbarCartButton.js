@@ -8,9 +8,7 @@ import { useContext } from 'react'
 const NavbarCartButton = ({setShowCart}) => {
 
     const context = useContext(cartContext)
-
-    // const numberOfItems = context.items.length
-
+    
     return <button className={styles.button} onClick={() => setShowCart(true)}>
                 <span className={styles.icon}> <CartIcon/> </span>
                 <span>Your Cart</span>

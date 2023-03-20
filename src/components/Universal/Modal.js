@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom'
 
 const Backdrop = (props) => {
     
-    return <div onClick={props.onClick} className={styles.backdrop}>
-        {/* tady musis udelat onClick  */}
-            
+    return <div onClick={props.onClick} className={styles.backdrop}>            
     </div>
 }
 
@@ -19,7 +17,6 @@ const ModaleOverlay = (props) => {
 }
 
 const portalToHTML = document.getElementById('overlays')
-
 
 const Modal = (props) => {
 

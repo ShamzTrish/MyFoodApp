@@ -6,21 +6,14 @@ const CartProvider = (props) => {
     const [ itemsValue, setItemsValue ] = useState([])
     const [ totalPrice, setTotalPrice ] = useState(0)
 
-
-        
-
     const addItemToCartHandler = (oneItem) => {
-
-
         setTotalPrice((previousState) => previousState + oneItem.amount * oneItem.price)
         
         const clickedItem = itemsValue.filter( (oneFilteredItem) => {
             return oneFilteredItem.id === oneItem.id
         })
         
-
         let finalItems = itemsValue
-
 
         if(clickedItem.length > 0){
            const findIndex = itemsValue.findIndex( (oneItemIndex) => {
@@ -39,7 +32,6 @@ const CartProvider = (props) => {
         }
 
         setItemsValue(finalItems)
-
     }
 
     const removeItemFromCartHandler = (oneItem) => {
@@ -70,7 +62,6 @@ const CartProvider = (props) => {
         }
         
         setItemsValue(finalItems)
-
     }
 
 
@@ -78,7 +69,6 @@ const CartProvider = (props) => {
         setItemsValue([])
         setTotalPrice(0)
     }
-
 
     const cartContext = {
         items: itemsValue,
@@ -88,7 +78,6 @@ const CartProvider = (props) => {
         clearCart: clearCartHandler,
     }
  
-
     return <CartContext.Provider value={cartContext}>
             {props.children}
          </CartContext.Provider>

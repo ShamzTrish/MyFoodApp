@@ -14,9 +14,9 @@ const Footer = () => {
       </div>
       <div className={styles.ikony}>
         <ul>
-          <a target="_blank" href='https://www.facebook.com/profile.php?id=1775273260'><FontAwesomeIcon icon={faFacebook} /></a>
-          <a target="_blank" href='https://www.instagram.com/ourr.travels/?hl=cs'><FontAwesomeIcon icon={faInstagram} /></a>
-          <a target="_blank" href='https://twitter.com/PetrPospisil17'><FontAwesomeIcon icon={faTwitter} /></a>
+          <a target="_blank" rel="noreferrer"  href='https://www.facebook.com/profile.php?id=1775273260'><FontAwesomeIcon icon={faFacebook} /></a>
+          <a target="_blank" rel="noreferrer"  href='https://www.instagram.com/ourr.travels/?hl=cs'><FontAwesomeIcon icon={faInstagram} /></a>
+          <a target="_blank" rel="noreferrer" href='https://twitter.com/PetrPospisil17'><FontAwesomeIcon icon={faTwitter} /></a>
         <p>&copy; 2023 Divinero. All rights reserved.</p>
         </ul>
       </div>
