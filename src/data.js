@@ -73,7 +73,7 @@ const data = [
     },
     {
       id: 'm12',
-      name: 'BBQ Ribs ',
+      name: 'BBQ Ribs',
       description: ' This meal features slow-cooked pork ribs smothered in tangy BBQ sauce, served with a side of coleslaw and baked beans. The ribs are fall-off-the-bone tender and the sauce is sweet and savory',
       price: 32.20,
       tags: 'American'
@@ -143,7 +143,7 @@ const data = [
     },
     {
       id: 'm23',
-      name: 'Svíčková:',
+      name: 'Svíčková',
       description: 'This is a traditional Czech beef dish that consists of tender beef sirloin that has been marinated in a cream-based sauce made with root vegetables, spices, and vinegar. It is usually served with a side of knedlíky (dumplings) and cranberry sauce. ',
       price: 25.10,
       tags: 'Czech'
